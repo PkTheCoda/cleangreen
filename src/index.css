@@ -12,6 +12,13 @@
     display: none;
   }
 
+  .one-title {
+    @apply md:text-xl text-lg
+  }
+
+  .two-title {
+    @apply md:text-2xl text-xl
+  }
 
   .three-title {
     @apply md:text-3xl text-2xl
@@ -51,5 +58,13 @@
 
   .transition300scale {
     @apply transition transform duration-300 hover:scale-[1.03]
+  }
+
+  .text-main {
+    @apply text-[#1d4a34]
+  }
+
+  .bg-main {
+    @apply bg-[#1d4a34]
   }
 }
