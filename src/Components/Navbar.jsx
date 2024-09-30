@@ -38,7 +38,7 @@ const Navbar = () => {
 
                 <li className="bg-white px-6 py-2 rounded-full shadow-md">
                   <a
-                    class="text-green-700 transition hover:text-white/75 tracking-widest"
+                    class="text-green-700 transition tracking-widest"
                     href="#"
                   >
                     {" "}

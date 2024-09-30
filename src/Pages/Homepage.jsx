@@ -6,6 +6,7 @@ import Gallery from '../Components/Gallery'
 import Features from '../Components/Features'
 import Locations from '../Components/Locations'
 import Footer from '../Components/Footer'
+import Sehaj from '../Components/Sehaj'
 
 
 const Homepage = () => {
@@ -14,6 +15,7 @@ const Homepage = () => {
         {/* Navbar goes in Hero */}
         <Hero /> 
         <About />
+        <Sehaj />
         <Features />
         <Testimonials />
         <Gallery />
