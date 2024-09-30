@@ -2,10 +2,11 @@ import React from 'react'
 import grassleaves from '../assets/grass-leaves.png'
 import potplant from '../assets/pot-plant.png'
 import watermingplant from '../assets/watering-plant.png'
+import { PiNumberCircleOneFill, PiNumberCircleTwoFill, PiNumberCircleThreeFill } from "react-icons/pi";
 
 const About = () => {
   return (
-    <div className='font-outfit py-10 pt-20 max-w-[85rem] mx-auto'>
+    <div className='font-outfit py-10 pt-20 pb-28 max-w-[85rem] mx-auto'>
         <div className='grid grid-cols-12 gap-12 mb-20'>
             <div className='col-span-7 flex flex-col justify-center gap-y-4 fle'>
                 <p className='tracking-widest two-title text-main'>
@@ -35,39 +36,50 @@ const About = () => {
             </div>
         </div>
         <div className='mt-20'>
-            <h3 className="text-center four-title font-medium py-10">
-                A Lawncare Company You Can Trust
+            <h3 className="text-center five-title font-medium py-16">
+                A Lawncare Company <span className="text-main underline">That Knows.</span>
             </h3>
             <div className='grid grid-cols-3 gap-12'>
-                <div className='flex flex-col gap-y-2 justify-center items-center text-center'>
+
+                <div className='relative flex flex-col gap-y-2 justify-center items-center text-center bg-[#EFEEE3] px-10 py-14 rounded-xl'>
+                    <div className='absolute -top-8 three-title p-2 px-2 text-white'>
+                        <PiNumberCircleOneFill className='text-main size-12'/>
+                    </div>
                     <img src={potplant} className='size-16' alt="" />
                     <h4 className='three-title'>
                         Safe & Secure
                     </h4>
-                    <p>
+                    <p className='text-lg'>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error suscipit corrupti excepturi sint est animi, culpa voluptatem aut inventore corporis, 
                     </p>
                 </div>
 
-                <div className='flex flex-col gap-y-2 justify-center items-center text-center'>
+                <div className='relative flex flex-col gap-y-2 justify-center items-center text-center bg-[#EFEEE3] px-10 py-14 rounded-xl'>
+                    <div className='absolute -top-8 three-title p-2 px-2 text-white'>
+                        <PiNumberCircleTwoFill className='text-main size-12'/>
+                    </div>
                     <img src={grassleaves} className='size-16' alt="" />
                     <h4 className='three-title'>
                         Easy Communication
                     </h4>
-                    <p>
+                    <p className='text-lg'>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error suscipit corrupti excepturi sint est animi, culpa voluptatem aut inventore corporis, 
                     </p>
                 </div>
 
-                <div className='flex flex-col gap-y-2 justify-center items-center text-center'>
+                <div className='relative flex flex-col gap-y-2 justify-center items-center text-center bg-[#EFEEE3] px-10 py-14 rounded-xl'>
+                    <div className='absolute -top-8 three-title p-2 px-2 text-white'>
+                        <PiNumberCircleThreeFill className='text-main size-12'/>
+                    </div>
                     <img src={watermingplant} className='size-16' alt="" />
                     <h4 className='three-title'>
-                        Licensed & Trained
+                        Experienced & Trained
                     </h4>
-                    <p>
+                    <p className='text-lg'>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error suscipit corrupti excepturi sint est animi, culpa voluptatem aut inventore corporis, 
                     </p>
                 </div>
+
             </div>
         </div> 
     </div>
