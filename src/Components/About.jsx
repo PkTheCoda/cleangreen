@@ -12,8 +12,8 @@ const About = () => {
                 <p className='tracking-widest two-title text-main'>
                     ABOUT OUR COMPANY
                 </p>
-                <h1 className='font-semibold eight-title'>
-                    A Company You Can Trust
+                <h1 className='font-semibold seven-title'>
+                    A Company You <br /> <span className="text-main">Can Trust</span>
                 </h1>
                 <p className='leading-loose text-sm md:text-base lg:text-lg'>
                     We started Clean Green as a service project for our community. We wanted to provide free landscaping to houses in our local community to help foster unity and pride within one’s own lawn. That project has since evolved into a full-fledged business where we provide potential customers with a free first visit. If they enjoy our services, they can call us back to start a long-term service deal, for which we will provide landscaping services once a week or every other week. Our services include lawn mowing, trimming, leaf blowing, edging, or complete lawn remodeling.
