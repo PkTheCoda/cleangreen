@@ -33,28 +33,15 @@ const Footer = () => {
             </a>
             <div class="mt-6 lg:max-w-sm">
               <p class="text-sm">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam.
+                CleanGreen is committed to providing high-quality, exceptional, lawncare and landscaping services.
               </p>
               <p class="mt-4 text-sm">
-                Eaque ipsa quae ab illo inventore veritatis et quasi architecto
-                beatae vitae dicta sunt explicabo.
+                We are open to negotation at any time and work closely with our clients for unparalleled satisfaction.
               </p>
             </div>
           </div>
           <div class="space-y-2 text-sm">
             <p class="text-base font-bold tracking-wide">Contacts</p>
-            <div class="flex">
-              <p class="mr-1">Phone:</p>
-              <a
-                href="tel:850-123-5021"
-                aria-label="Our phone"
-                title="Our phone"
-                class="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
-              >
-                850-123-5021
-              </a>
-            </div>
             <div class="flex">
               <p class="mr-1">Email:</p>
               <a
@@ -63,7 +50,7 @@ const Footer = () => {
                 title="Our email"
                 class="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
-                info@lorem.mail
+                contact@cleanthegreen.org
               </a>
             </div>
             <div class="flex">
@@ -76,7 +63,7 @@ const Footer = () => {
                 title="Our address"
                 class="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
-                312 Lovely Street, NY
+                Richmond, Virginia
               </a>
             </div>
           </div>
@@ -110,14 +97,13 @@ const Footer = () => {
               </a>
             </div>
             <p class="mt-4 text-sm ">
-              Bacon ipsum dolor amet short ribs pig sausage prosciutto chicken
-              spare ribs salami.
+              No socials yet (we'll have some coming soon though!). Be on the lookout!
             </p>
           </div>
         </div>
         <div class="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
           <p class="text-sm">
-            © Copyright 2020 Lorem Inc. All rights reserved.
+            © Copyright 2024 CleanGreen. All rights reserved.
           </p>
           <ul class="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
             <li>
@@ -125,7 +111,7 @@ const Footer = () => {
                 href="/"
                 class="text-sm transition-colors duration-300 hover:text-deep-purple-accent-400"
               >
-                Website Built by ThryveDesign
+                Website Built by <a href="https://thryvedesign.com" target="_blank" className="underline text-blue-300">ThryveDesign</a>
               </a>
             </li>
           </ul>
