@@ -2,12 +2,10 @@ import React from 'react'
 
 const Testimonials = () => {
   return (
-    <div className='bg-main py-20 font-outfit text-white'>
-        <div className='max-w-[85rem] mx-auto grid grid-cols-12 gap-20'>
-            {/* Sehaj, Aryan, and their team is very helpful in maintaining my lawn and backyard. Certainly recommend them for 
-            your lawn and other jobs. */}
+    <div className='bg-main py-20 font-outfit text-white px-8'>
+        <div className='max-w-[85rem] mx-auto flex flex-col gap-y-20 lg:grid grid-cols-12 gap-20'>
 
-            <div className="col-span-5 space-y-4">
+            <div className="w-full lg:col-span-5 space-y-4">
                 <p className='tracking-widest two-title font-light'>
                     TESTIMONIALS
                 </p>
@@ -19,7 +17,7 @@ const Testimonials = () => {
                 </button>
             </div>
 
-            <div className="col-span-7 flex flex-col gap-y-10">
+            <div className="w-full lg:col-span-7 flex flex-col gap-y-10">
 
                 <div className='space-y-8'>
                     <h2 className='three-title font-light'>

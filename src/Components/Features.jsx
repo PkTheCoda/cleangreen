@@ -8,7 +8,7 @@ import { FaHome } from "react-icons/fa";
 
 const Features = () => {
   return (
-    <div className="bg-gray-100 py-20 px-4 sm:px-6 lg:px-8 font-outfit">
+    <div className="bg-gray-100 py-20 px-8 font-outfit">
       <div className="max-w-[85rem] mx-auto">
         <p className="mb-2 tracking-widest">WHY CLEAN GREEN?</p>
         <div className="flex flex-col md:flex-row justify-between items-start mb-12">

@@ -10,7 +10,7 @@ const Locations = () => {
       ];
     
       return (
-        <div className="bg-gray-100 py-20 px-4 sm:px-6 lg:px-8 font-outfit">
+        <div className="bg-gray-100 py-20 px-8 font-outfit">
           <div className="max-w-7xl mx-auto">
             <p className="tracking-widest font-light text-main mb-2">CITIES WE SERVICE</p>
             <h2 className="six-title font-semibold text-gray-900 mb-8">We Service a wide <br /> range of locations</h2>

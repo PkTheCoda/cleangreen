@@ -8,7 +8,7 @@ import lawn5 from '../assets/lawn5.jpg'
 
 const Gallery = () => {
   return (
-    <div className='max-w-[85rem] mx-auto py-40 font-outfit'>
+    <div className='max-w-[85rem] mx-auto py-40 font-outfit px-8'>
         <div className='flex flex-col gap-y-12'>
             <div className='flex items-end justify-between'>
                 <div className='flex flex-col gap-y-4'>
@@ -24,7 +24,7 @@ const Gallery = () => {
                     CONTACT US
                 </button>
             </div>
-            <div className='grid grid-cols-3 gap-4'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
                 <img 
                     src={lawn1} 
                     alt="Image of lawn that we've worked on" 

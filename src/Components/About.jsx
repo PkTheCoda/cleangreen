@@ -6,23 +6,23 @@ import { PiNumberCircleOneFill, PiNumberCircleTwoFill, PiNumberCircleThreeFill }
 
 const About = () => {
   return (
-    <div className='font-outfit py-10 pt-20 pb-28 max-w-[85rem] mx-auto'>
-        <div className='grid grid-cols-12 gap-12 mb-20'>
-            <div className='col-span-7 flex flex-col justify-center gap-y-4 fle'>
+    <div className='font-outfit py-10 pt-20 px-8 pb-28 max-w-[85rem] mx-auto'>
+        <div className='flex flex-col lg:grid grid-cols-12 gap-12 mb-20'>
+            <div className='col-span-12 lg:col-span-7 flex flex-col justify-center gap-y-4'>
                 <p className='tracking-widest two-title text-main'>
                     ABOUT OUR COMPANY
                 </p>
                 <h1 className='font-semibold eight-title'>
                     A Company You Can Trust
                 </h1>
-                <p className='leading-loose text-lg'>
+                <p className='leading-loose text-sm md:text-base lg:text-lg'>
                     We started Clean Green as a service project for our community. We wanted to provide free landscaping to houses in our local community to help foster unity and pride within one’s own lawn. That project has since evolved into a full-fledged business where we provide potential customers with a free first visit. If they enjoy our services, they can call us back to start a long-term service deal, for which we will provide landscaping services once a week or every other week. Our services include lawn mowing, trimming, leaf blowing, edging, or complete lawn remodeling.
                 </p>
                 <button className='text-white bg-main px-6 py-2 rounded-full tracking-widest w-max shadow-md'>
                 ABOUT US
               </button>
             </div>
-            <div className="col-span-5 flex flex-col gap-y-4">
+            <div className="col-span-12 lg:col-span-5 flex flex-col gap-y-4">
                 <img
                     src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/07/featured-image-front-yard-landscaping.jpeg"
                     className='h-2/3 rounded-md rotate-1 shadow-md'
@@ -39,7 +39,7 @@ const About = () => {
             <h3 className="text-center five-title font-medium py-16">
                 A Lawncare Company <span className="text-main underline">That Knows.</span>
             </h3>
-            <div className='grid grid-cols-3 gap-12'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 place-items-center'>
 
                 <div className='relative flex flex-col gap-y-2 justify-center items-center text-center bg-[#EFEEE3] px-10 py-14 rounded-xl'>
                     <div className='absolute -top-8 three-title p-2 px-2 text-white'>

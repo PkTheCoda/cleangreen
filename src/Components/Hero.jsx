@@ -5,7 +5,7 @@ import Navbar from '../Components/Navbar'
 const Hero = () => {
   return (
     <div 
-      className='bg-red-500 font-outfit py-10' // Make sure the div has height
+      className='bg-red-500 font-outfit py-10 px-8' // Make sure the div has height
       style={{
         backgroundImage: `url(${cleanmain})`,
         backgroundSize: 'cover', // or 'contain' based on your preference
