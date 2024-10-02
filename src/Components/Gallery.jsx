@@ -10,7 +10,7 @@ const Gallery = () => {
   return (
     <div className='max-w-[85rem] mx-auto py-40 font-outfit px-8'>
         <div className='flex flex-col gap-y-12'>
-            <div className='flex items-end justify-between'>
+            <div className='flex flex-col md:flex-row md:items-end gap-y-4 justify-between'>
                 <div className='flex flex-col gap-y-4'>
                     <h4 className='tracking-widest text-main'>
                         GALLERY
@@ -20,7 +20,7 @@ const Gallery = () => {
                         Incredible Work
                     </h1>
                 </div>
-                <button className='text-white bg-main px-6 py-2 rounded-full tracking-widest w-max shadow-md'>
+                <button className='text-white bg-main px-6 py-2 rounded-full tracking-widest w-max shadow-md h-max'>
                     CONTACT US
                 </button>
             </div>

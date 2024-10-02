@@ -50,7 +50,9 @@ const About = () => {
                         Safe & Secure
                     </h4>
                     <p className='text-lg'>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error suscipit corrupti excepturi sint est animi, culpa voluptatem aut inventore corporis, 
+                        At CleanGreen, your safety is our top priority. We ensure a secure environment while caring for your lawn, treating your property with respect.
+
+
                     </p>
                 </div>
 
@@ -63,7 +65,7 @@ const About = () => {
                         Easy Communication
                     </h4>
                     <p className='text-lg'>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error suscipit corrupti excepturi sint est animi, culpa voluptatem aut inventore corporis, 
+                    We keep our clients informed and engaged. Our communication is hassle-free—feel free to reach out anytime with questions or feedback.
                     </p>
                 </div>
 
@@ -76,7 +78,7 @@ const About = () => {
                         Experienced & Trained
                     </h4>
                     <p className='text-lg'>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error suscipit corrupti excepturi sint est animi, culpa voluptatem aut inventore corporis, 
+                    Our skilled team is passionate about lawn care. With years of experience, we’re dedicated to transforming your lawn into a beautiful outdoor space.
                     </p>
                 </div>
 

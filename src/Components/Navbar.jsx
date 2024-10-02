@@ -1,4 +1,5 @@
 import React from "react";
+import logo from '../assets/cleanlogo.png'
 
 const Navbar = () => {
   return (
@@ -19,7 +20,7 @@ const Navbar = () => {
                   fill="currentColor"
                 />
               </svg> */}
-              CleanGreen Lawncare
+              <img src={logo} className="size-20" alt="" />
             </a>
           </div>
 
