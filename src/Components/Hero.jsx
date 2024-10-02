@@ -20,7 +20,7 @@ const Hero = () => {
             Outdoor Living & Landscaping Services
           </div>
           <p className='max-w-xl tracking-wide one-title'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat veritatis assumenda eligendi dolorum veniam beatae illum eius id non
+            The best lawncare service in Richmond, Virginia. Providing unparalled and satisfactory services to tens of clients at negotatiable prices. Contact us and find out!
           </p>
           <button className='text-white bg-main px-6 py-2 rounded-full tracking-widest w-max shadow-md'>
             BOOK NOW
