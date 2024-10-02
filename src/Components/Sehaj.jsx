@@ -4,9 +4,9 @@ import sehajpic from '../assets/sehaj.png'
 export default function Sehaj() {
     return (
         <>
-            <div className="max-w-[85rem] mx-auto grid grid-cols-1 gap-10 lg:grid-cols-2 font-outfit px-20 mb-20">
+            <div className="max-w-[85rem] mx-auto grid grid-cols-1 gap-10 lg:grid-cols-2 font-outfit px-8 mb-20">
                 <div className="flex items-center justify-center">
-                    <img src={sehajpic} alt="Pic of sehaj" className="h-[40rem] -rotate-1 rounded-md shadow-md"/>
+                    <img src={sehajpic} alt="Pic of sehaj" className="md:h-[40rem] -rotate-1 rounded-md shadow-md"/>
                 </div>
                 <div className="flex flex-col  justify-center gap-y-4">
                     <p className="tracking-widest font-light">
