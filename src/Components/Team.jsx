@@ -13,7 +13,7 @@ export default function Sehaj() {
                     </div>
                     <div className="flex flex-col justify-center gap-y-4">
                         <p className="tracking-widest font-light">
-                            FOUNDER AND CEO
+                            CO-FOUNDER AND CEO
                         </p>
                         <h1 className="seven-title font-semibold tracking-tight">
                             Hey, I'm Sehaj!
@@ -35,10 +35,15 @@ export default function Sehaj() {
                         <div className="w-full flex flex-col items-center justify-center gap-y-6">
                             <img src={aryan} alt="Image of Aryan, a founder of CleanGreen" className="h-[30rem] rounded-md shadow-md w-full object-cover"/>
                             <div className="w-full flex flex-col gap-y-4">
-                                <h2 className="five-title tracking-tight font-medium">
-                                    Aryan Ahmed
-                                </h2>
-                                <p className="text-fit">
+                                <div className="">
+                                    <h5 className="text-md tracking-widest uppercase">
+                                        Co-Founder of CleanGreen
+                                    </h5>
+                                    <h2 className="five-title tracking-tight font-medium">
+                                        Aryan Ahmed
+                                    </h2>
+                                </div>
+                                <p className="text-fit text-justify">
                                     Hi, I'm Aryan, a current Senior in the International Baccalaureate program at John Randolph Tucker 
                                     High School. Ever since I was young, I have been doing landscaping work for my family, which is what 
                                     inspired me to co-found Clean Green. My favorite part about the work we do is getting to help members 
@@ -50,10 +55,15 @@ export default function Sehaj() {
                         <div className="w-full flex flex-col items-center justify-center gap-y-6">
                             <img src={matei} alt="Image of Aryan, a founder of CleanGreen" className="h-[30rem] rounded-md shadow-md w-full object-cover"/>
                             <div className="w-full flex flex-col gap-y-4">
-                                <h2 className="five-title tracking-tight font-medium">
-                                    Matei Boanca
-                                </h2>
-                                <p className="text-fit">
+                                <div className="">
+                                    <h5 className="text-md tracking-widest uppercase">
+                                        Co-Founder of CleanGreen
+                                    </h5>
+                                    <h2 className="five-title tracking-tight font-medium">
+                                        Matei Boanca
+                                    </h2>
+                                </div>
+                                <p className="text-fit text-justify">
                                     Hi, I'm Matei, a current Senior in the International Baccalaureate program at John Randolph Tucker 
                                     High School. Each time I mowed and edged my parents' and neighbors' lawns, I always felt satisfied by the process 
                                     of bettering my commnunity. Therfore, I decided to embark on this journey with my friends to expand on our joy 
