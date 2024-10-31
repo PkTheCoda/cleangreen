@@ -6,7 +6,7 @@ import Gallery from '../Components/Gallery'
 import Features from '../Components/Features'
 import Locations from '../Components/Locations'
 import Footer from '../Components/Footer'
-import Sehaj from '../Components/Sehaj'
+import Team from '../Components/Team'
 
 
 const Homepage = () => {
@@ -15,7 +15,7 @@ const Homepage = () => {
         {/* Navbar goes in Hero */}
         <Hero /> 
         <About />
-        <Sehaj />
+        <Team />
         <Features />
         <Testimonials />
         <Gallery />
