@@ -28,7 +28,7 @@ export default function Sehaj() {
                 </div>
                 <div className="py-10 mb-20 max-w-[55rem] mx-auto text-center space-y-12">
                     <h1 className="six-title font-medium tracking-light">
-                        Executive Team
+                        Meet the <span className="text-main underline">Founding Team</span>
                     </h1>
                     <div className="grid grid-cols-2 place-items center gap-8">
 
@@ -37,7 +37,7 @@ export default function Sehaj() {
                             <div className="w-full flex flex-col gap-y-4">
                                 <div className="">
                                     <h5 className="text-md tracking-widest uppercase">
-                                        Co-Founder of CleanGreen
+                                        Co-CEO of CleanGreen
                                     </h5>
                                     <h2 className="five-title tracking-tight font-medium">
                                         Aryan Ahmed
@@ -57,7 +57,7 @@ export default function Sehaj() {
                             <div className="w-full flex flex-col gap-y-4">
                                 <div className="">
                                     <h5 className="text-md tracking-widest uppercase">
-                                        Co-Founder of CleanGreen
+                                    Co-CEO of CleanGreen
                                     </h5>
                                     <h2 className="five-title tracking-tight font-medium">
                                         Matei Boanca
